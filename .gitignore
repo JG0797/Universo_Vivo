@@ -1,0 +1,54 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.log
+
+# Dependencias locales, cachés y cobertura
+.pnpm-store/
+.npm/
+.cache/
+.vite/
+coverage/
+.nyc_output/
+
+# Temporales y archivos del sistema/editor
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+
+# Respaldos y datos exportados del navegador
+backups/
+respaldos/
+*.bak
+*.backup
+universo-vivo-respaldo*.json
+universo-vivo-recuperacion*.json
+
+# Configuración privada, credenciales y secretos
+.env*
+!.env.example
+*.local
+.npmrc
+.aws/
+.ssh/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Estado local de herramientas y proveedores
+.codex/
+.vercel/
+.netlify/
+.wrangler/
